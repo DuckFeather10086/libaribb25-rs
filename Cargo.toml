@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "aribb25",
+    "b25",
+]
+resolver = "2"

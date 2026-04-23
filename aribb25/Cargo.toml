@@ -1,0 +1,9 @@
+[package]
+name = "aribb25"
+version = "0.2.10"
+edition = "2021"
+description = "ARIB STD-B25 / ARIB STD-B1 decoder library"
+
+[dependencies]
+thiserror = "1"
+pcsc = "2"
