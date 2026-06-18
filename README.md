@@ -24,7 +24,7 @@ b25 [options] -      -            # read TS from stdin, write to stdout
 ```
 
 The stdin/stdout pipe form is how
-[`isdbd`](https://github.com/DuckFeather10086/isdbd) chains it after the
+[`isdbd`](https://github.com/DuckFeather10086/isdb-hub) chains it after the
 tuner:
 
 ```
@@ -44,4 +44,4 @@ cargo build --release          # produces target/release/b25
 
 For free-to-air / cardless setups, isdbd can skip `b25` entirely
 (`DvbrCLI.B25Bin` empty). See the umbrella repo
-[`isdb-workspace`](https://github.com/DuckFeather10086/isdbd).
+[`isdb-workspace`](https://github.com/DuckFeather10086/isdb-hub).
