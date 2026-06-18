@@ -1,11 +1,11 @@
 [package]
-name = "b25"
+name = "b25-rs"
 version = "0.2.10"
 edition = "2021"
 description = "ARIB STD-B25 decoder command line tool"
 
 [[bin]]
-name = "b25"
+name = "b25-rs"
 path = "src/main.rs"
 
 [dependencies]
