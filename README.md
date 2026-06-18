@@ -24,7 +24,7 @@ b25-rs [options] -      -            # read TS from stdin, write to stdout
 ```
 
 The stdin/stdout pipe form is how
-[`isdb-hub`](https://github.com/DuckFeather10086/isdb-hub) chains it after the
+[`ferrite`](https://github.com/DuckFeather10086/ferrite) chains it after the
 tuner:
 
 ```
@@ -42,6 +42,6 @@ cargo build --release          # produces target/release/b25-rs
 - `pcscd` running, with a polkit rule allowing the invoking user.
 - A B-CAS card in a PC/SC-supported reader.
 
-For free-to-air / cardless setups, isdb-hub can skip `b25-rs` entirely
+For free-to-air / cardless setups, ferrite can skip `b25-rs` entirely
 (`DvbrCLI.B25Bin` empty). See the umbrella repo
 [`ferrite`](https://github.com/DuckFeather10086/ferrite).
