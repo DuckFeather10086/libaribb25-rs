@@ -44,4 +44,4 @@ cargo build --release          # produces target/release/b25-rs
 
 For free-to-air / cardless setups, isdb-hub can skip `b25-rs` entirely
 (`DvbrCLI.B25Bin` empty). See the umbrella repo
-[`isdb-workspace`](https://github.com/DuckFeather10086/isdb-workspace).
+[`ferrite`](https://github.com/DuckFeather10086/ferrite).
